@@ -1,0 +1,25 @@
+[buildPlans.iosevka]
+family = "Iosevka"
+spacing = "normal"
+serifs = "sans"
+no-cv-ss = true
+export-glyph-names = false
+
+[buildPlans.iosevka.variants.design]
+capital-a = "straight-serifless"
+capital-r = "curly-serifless"
+g = "single-storey-earless-corner"
+y = "cursive-serifless"
+zero = "dotted"
+four = "closed"
+six = "closed-contour"
+seven = "bend-serifless"
+nine = "closed-contour"
+brace = "curly"
+guillemet = "curly"
+at = "threefold"
+lig-double-arrow-bar = "without-notch"
+lig-single-arrow-bar = "without-notch"
+
+  [buildPlans.iosevka.ligations]
+  inherits = "javascript"
